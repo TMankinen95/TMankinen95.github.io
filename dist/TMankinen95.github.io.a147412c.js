@@ -160,7 +160,7 @@
       });
     }
   }
-})({"9k9RZ":[function(require,module,exports,__globalThis) {
+})({"jEdCz":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -1791,6 +1791,6 @@ ${frame.code}`;
     "a0t4e"
 ], "a0t4e", "parcelRequire6aa4", {});
 
-},{}]},["9k9RZ","4itkH"], "4itkH", "parcelRequire6aa4", {})
+},{}]},["jEdCz","4itkH"], "4itkH", "parcelRequire6aa4", {})
 
 //# sourceMappingURL=TMankinen95.github.io.a147412c.js.map
