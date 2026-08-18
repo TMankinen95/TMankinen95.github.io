@@ -1,21 +1,260 @@
-<!doctype html>
-<html lang="en">
+<!--
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" href="/fanikauppa/assets/favicon-DIu5mB3i.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Majakka Puoti</title>
-  <script type="module" crossorigin src="/fanikauppa/assets/index-Bi8OgLFT.js"></script>
-  <link rel="stylesheet" crossorigin href="/fanikauppa/assets/index-BTHiXiSc.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="/favicon.2a2e97fc.png">
+
+  <!-- Todo: put here your site title -->
+  <title>Topi Mankinen | Developer</title>
+  <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[username], [name], skill">
+  <!-- Todo: improve your SEO by adding a small description of you -->
+  <meta name="description" content="[Your name here] | Developer">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/TMankinen95.github.io.4a508c1d.css">
+  <script defer="" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <!-- Todo: remove the below script once you finish your portfolio -->
+  <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
 </head>
 
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+
 <body>
-  <div id="root"></div>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden">
+        <span class="text-color-main">Topi Mankinen</span>
+        <br>
+        Ohjelmistotekniikan opiskelija
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Tietoja</a>
+      </p>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">Tietoa minusta</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <!--<img
+              alt="Profile Image"
+              class="img-fluid rounded shadow-lg"
+              height="auto"
+              width="300px"
+              src="assets/profile.jpg"
+              alt="Profile Image"
+            />-->
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              Olen kolmannen vuoden ohjelmistokehityksen opiskelija ja suoritan samalla kaksoitutkintoa. Olen tunnollinen, ahkera ja kiinnostunut oppimaan uutta.
+            </p>
+            <p class="about-wrapper__info-text">
+              Osaamista löytyy: HTML, CSS, JS, PHP, REACT, SQL ja Wordpress
+            </p>
+            <span class="d-flex mt-3">
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projektit</h2>
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Taitaja 2026 semifinaali tehtävä</h3>
+              <div>
+                <p class="mb-4">
+                  Tämä on vuoden 2026 Taitaja web-kehityksen semifinaali tehtävä. Osallituin siis semifinaaliin ja sain
+                  5,5 tunnin aikana tämän
+                  aikaiseksi. Tavoitteena oli tehdä Kaavakanta niminen sovellus, jossa kuntalaiset voivat tutkia ja
+                  kommentoida kunnan kaavasuunnitelmia. Sivulla on rekisteröinti, kirjautuminen ja myös admin hallinta.
+                  Tehty PHP ja Js:lla. Tällä pääsi finaaliin ja sijoituin siellä viidenneksi.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://semi26.topman24.treok.io/">
+                Sivulle
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://semi26.topman24.treok.io/" target="_blank">
+                <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="/kaavakanta.png">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Majakka Puoti</h3>
+              <div>
+                <p class="mb-4">
+                  Tämä on Reactilla tuoteutettu Majakka Puoti sivusto. Sivulla on majakan muotoinen pohja, jossa on
+                  erillaisia hienoja tuotteita.
+                  Sivulla on toimiva ostokori mekaniikka ja tummatila nappi, jolla saa majakan päälle.
+                  Tehty Reactilla.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="/fanikauppa/index.html">
+                Sivulle
+              </a>
+
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="/fanikauppa/index.html" target="_blank">
+                <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="/project.f500882b.png">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Keikkainfo</h3>
+              <div>
+                <p class="mb-4">
+                  Tämä projetki on tehty React frontendillä ja php backendillä. Keikkainfo sivulla käyttäjät saavat
+                  tieto eri keikoista - tulevista ja menneistä.
+                  Rekisteröityneet ja kirjautuneet käyttäjät voivat lisätä, muokata ja poistaa keikkoja, artisteja,
+                  genrejä ja keikkapaikkoja.   
+                  Frontend React ja Backend PHP.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://keikkainfo.topman24.treok.io/">
+                Sivulle
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://keikkainfo.topman24.treok.io/" target="_blank">
+                <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="/Keikkakuva.png">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Tietovisuli</h3>
+              <div>
+                <p class="mb-4">
+                  Tämä on Reactilla toteutttu tietovisa -sovellus ryhmätyö. Sivulla voi pelata erilaisia tietovisoja ja kirjautuneena voi luoda ja muokata
+                  myös omia. Muita ominaisuuksia ovat mm. leaderboard, streak järjestelmä ja tietovisojen hallinointi. Itse osallistuin mm. ulkoasuun, etusivuun ja varsinaiseen peliin.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://tietovisuli.micmat24.treok.io/">
+                Sivulle
+              </a>
+
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://tietovisuli.micmat24.treok.io/" target="_blank">
+                <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="/tietovisuli.png">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Yhteystiedot</h2>
+      <p class="about-wrapper__info-text">
+        Sähköposti: topi.mankinen@gmail.com</p>
+    </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+
+        <a rel="noreferrer" href="https://www.linkedin.com/in/topi-mankinen-358926341/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://github.com/TMankinen95" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr>
+      <p class="mt-3 pt-3">
+
+      </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+
+  <script defer="" type="module" src="/TMankinen95.github.io.31b563d9.js"></script>
+
+
 </body>
 
 </html>
